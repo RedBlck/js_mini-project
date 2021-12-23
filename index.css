@@ -1,0 +1,31 @@
+body {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    column-gap: 2%;
+    row-gap: 15px;
+    width: 100%;
+    background: aliceblue;
+}
+.userDiv {
+    background: aliceblue;
+    color: blueviolet;
+    border-radius: 15px;
+    width: 45%;
+    text-align: center;
+    padding-bottom: 10px;
+    border: 1px solid blueviolet;
+}
+.userIdName {
+    display: flex;
+    justify-content: space-around;
+}
+.btnUser {
+    border: none;
+    border-radius: 10px;
+    background: blueviolet;
+    color: aliceblue;
+    font-size: 18px;
+    width: 200px;
+    height: 40px;
+}

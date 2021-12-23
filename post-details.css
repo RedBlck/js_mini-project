@@ -1,0 +1,30 @@
+body {
+    background: aliceblue;
+}
+.postContainer {
+    display: flex;
+    justify-content: space-evenly;
+    font-size: 20px;
+    color: blueviolet;
+    padding: 25px 0 50px 0;
+    align-items: center;
+}
+.commentContainer {
+    padding: 0 5%;
+    display: flex;
+    column-gap: 2%;
+    row-gap: 25px;
+    flex-wrap: wrap;
+    justify-content: center;
+    color: blueviolet;
+
+}
+.commentDiv {
+    width: 21%;
+    border: 1px solid blueviolet;
+    padding: 10px;
+    border-radius: 10px;
+}
+.divElement {
+    padding: 8px 0;
+}

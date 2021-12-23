@@ -1,0 +1,63 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+body {
+    background: aliceblue;
+}
+.titleContainer {
+    display: none;
+}
+.userConteiner {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    row-gap: 15px;
+    column-gap: 2%;
+    align-items: center;
+    justify-content: center;
+    background: aliceblue;
+    padding: 25px 0;
+    color: blueviolet;
+    font-size: 20px;
+}
+.userDiv {
+    width: 20%;
+}
+.paddingBot {
+    padding: 5px 0;
+}
+.btn {
+    width: 90%;
+    border: none;
+    border-radius: 10px;
+    background: blueviolet;
+    color: white;
+    height: 50px;
+    font-size: 20px;
+}
+.titleStyle {
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 1%;
+    row-gap: 15px;
+    justify-content: center;
+    margin: 0 5%;
+}
+.postContainer {
+    width: 17%;
+    background: aliceblue;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    border-radius: 15px;
+    padding: 10px;
+}
+.titleBtn {
+    border: none;
+    border-radius: 7px;
+    background: blueviolet;
+    color: white;
+    height: 25px;
+    width: 50px;
+    font-size: 15px;
+}
